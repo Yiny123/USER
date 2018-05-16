@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yjy.user.MainActivity">
+
+    <include
+        layout="@layout/common_toolbar"/>
+
+    <com.yjy.user.ui.wedget.LoadingLayout
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_toolbar"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/get_code"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="GET SMS CODE"/>
+
+            <TextView
+                android:id="@+id/tv_to_login"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px_to_dip_90"
+                android:layout_marginTop="@dimen/px_to_dip_60"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="登陆"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </com.yjy.user.ui.wedget.LoadingLayout>
+</LinearLayout>

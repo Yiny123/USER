@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   android:id="@+id/common_toolbar"
+                                   android:layout_width="fill_parent"
+                                   android:layout_height="@dimen/px_to_dip_96"
+                                   android:background="@color/navigation_color"
+                                   android:minHeight="?actionBarSize"
+                                   app:titleTextColor="@color/white"
+                                   app:contentInsetStart="@dimen/px_to_dip_0"
+                                   app:contentInsetStartWithNavigation="@dimen/px_to_dip_0"
+                                   app:navigationIcon="@drawable/toolbar_common"
+    />
+    <!--app:popupTheme="@style/ToolbarPopupTheme"-->

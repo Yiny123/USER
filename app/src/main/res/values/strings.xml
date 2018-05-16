@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">91Porn</string>
+    <string name="tip_zhuazhua_error">错误</string>
+    <string name="gender_label_icon_femail">女的</string>
+    <string name="gender_label_icon_mail">男的</string>
+    <string name="nearby_meter">米</string>
+    <string name="distance_format">米</string>
+</resources>
